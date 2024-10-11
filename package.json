@@ -1,5 +1,5 @@
 {
-  "name": "migrate-mongoose",
+  "name": "iloapps_es-migrate-mongoose",
   "version": "4.0.1",
   "description": "A mongoose based migration framework for node (forked from Borna Almasi)",
   "main": "./src/lib.js",
