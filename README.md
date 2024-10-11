@@ -1,5 +1,9 @@
 # migrate-mongoose
-A node based migration framework for ES6+ for mongoose
+A node based migration framework for ES6+ for mongoose. Fork of balmasi/migrate-mongoose.
+
+## Changes compared to original version
+
+* fix: (node:2480887) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
 
 #### Motivation
 migrate-mongoose is a migration framework for projects which are already using mongoose.
