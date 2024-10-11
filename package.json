@@ -9,7 +9,7 @@
     "test": "echo 'Error: no test specified'"
   },
   "bin": {
-    "migrate": "./src/cli.js"
+    "migrate": "src/cli.js"
   },
   "keywords": [
     "migrate",
@@ -24,7 +24,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/balmasi/migrate-mongoose.git"
+    "url": "git+https://github.com/balmasi/migrate-mongoose.git"
   },
   "dependencies": {
     "bluebird": "^3.3.3",
