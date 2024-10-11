@@ -1,7 +1,7 @@
 {
   "name": "migrate-mongoose",
-  "version": "4.0.0",
-  "description": "A mongoose based migration framework for node",
+  "version": "4.0.1",
+  "description": "A mongoose based migration framework for node (forked from Borna Almasi)",
   "main": "./src/lib.js",
   "scripts": {
     "prepublish": "scripts/prepublish.sh",
@@ -20,11 +20,11 @@
     "db",
     "nosql"
   ],
-  "author": "Borna Almasi <borna@borna-almasi.com>",
+  "author": "forked: Matti Vilola <matti@iloapps.es>, original: Borna Almasi <borna@borna-almasi.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/balmasi/migrate-mongoose.git"
+    "url": "git+https://github.com/mattivilola/migrate-mongoose.git"
   },
   "dependencies": {
     "bluebird": "^3.3.3",
